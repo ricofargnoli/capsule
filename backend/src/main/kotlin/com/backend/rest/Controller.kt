@@ -1,4 +1,4 @@
-package com.capsule.rest
+package com.backend.rest
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
@@ -9,6 +9,6 @@ class Controller {
 
     @GetMapping("/health")
     fun health(): ResponseEntity<String> {
-        return ResponseEntity.ok("App is up and Running")
+        return ResponseEntity.ok("Application is up and running")
     }
 }
