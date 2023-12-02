@@ -1,11 +1,11 @@
-package com.capsule
+package com.backend
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class CapsuleApplication
+class BackendApplication
 
 fun main(args: Array<String>) {
-	runApplication<CapsuleApplication>(*args)
+	runApplication<BackendApplication>(*args)
 }

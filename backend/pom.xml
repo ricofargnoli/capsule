@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com</groupId>
-	<artifactId>capsule</artifactId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>capsule</name>
+	<name>backend</name>
 	<description>Capsule backend</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<kotlin.version>1.9.20</kotlin.version>
 	</properties>
 	<dependencies>

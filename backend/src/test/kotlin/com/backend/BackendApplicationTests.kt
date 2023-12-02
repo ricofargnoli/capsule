@@ -1,10 +1,10 @@
-package com.capsule
+package com.backend
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class CapsuleApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	fun contextLoads() {
